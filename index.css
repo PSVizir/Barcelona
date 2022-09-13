@@ -1,3 +1,19 @@
-h1, h2, p {font-family: verdana;}
+h1 {
+                        font-type: bold; 
+}
+
+h2, p {
+                        font-family: verdana;
+                        font-type: italic;
+}
+
+#photoOffamousPlaces{
+                        float: right;
+                        width: 30%;
+                        margin: 5px;
+                        border-color: black;
+                        border-width: 1px;
+}
+
 
 body {color-background: #DAD871;}
