@@ -5,12 +5,16 @@ h1 {
 h2, p {
     font-family: verdana;
     font-style: italic;
+    width: auto;
+}
+
+#header {
+    height: 200px;
 }
 
 .photoOffamousPlaces{
     float: right;
     width: 20%;
-    margin: 5px;
     border-color: black;
     border-width: 1px;
 }
@@ -20,23 +24,34 @@ a {
 }
 
 img {
-    width: auto;
+    width: 250px;
+    height: 200px;
 }
 
-body {background: #FFF7C9;}
+body {
+    background: #FFF7C9;
+    margin: 50px;
+    font-size: 1.2em;
+    width: 85%;
+}
 
 header {
     background-color: #E5D969;
-    height: 150px;
-    margin: auto;
+    background-image: url(images/BarcelonaSkyline.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 200px;
+    margin-bottom: 10px;
     padding: auto;
     text-align: center;
+    vertical-align: auto;
 }
 
     .social-icons-1 {
         padding: 0;
         list-style: none;
-        margin: 10px;
+        margin: 10px;;
     }
     .social-icons-1 li {
         display: inline-block;
@@ -80,15 +95,19 @@ header {
     }
 
     footer {
+        background-image: url(images/BarcelonaSkylineFooter.jpg);
+        width: 100%;
+        height: 200px;
         text-align: center;
     }
 
     form {
-        background-color: #E5D969;
         float: right;
-        width: 300px;
-        margin: auto;
-        padding: auto;
-        height: 100px;
+        width: 20%;
+        margin: 5px;
+        padding: 5px;
         font-size: 1em;
+        border: black;
+        border-style: dotted;
     }
+
